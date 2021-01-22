@@ -109,7 +109,7 @@ model.evaluate_generator(test_image_generator)  # loss, acc: [0.8078150361776352
 
 from tensorflow.keras.preprocessing import image
 
-test_img = '/Users/apple/Desktop/Screen Shot 2020-02-18 at 6.01.53 PM.png'
+test_img = '/Users/apple/Desktop/Screen Shot 2021-01-21 at 7.02.02 PM.png'
 my_image = image.load_img(test_img, target_size=(50, 100, 3))
 
 my_image_array = image.img_to_array(my_image)
